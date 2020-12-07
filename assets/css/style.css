@@ -27,6 +27,16 @@ a:hover {
     color: #00326e;
 }
 
+/* IMAGE */ 
+.img-container {
+    height: 100vh; 
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 
