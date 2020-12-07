@@ -59,6 +59,20 @@ a:hover {
     padding: 15px;
 }
 
+/* VISIT */ 
+#visit {
+    padding: 30px 40px 30px 40px;
+}
+
+#visit .buttons-container {
+    padding: 15px; 
+}
+
+.btn {
+    margin: 10px;
+    border: 1px solid black;
+}
+
 
 
 
