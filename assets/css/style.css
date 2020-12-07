@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Averia+Sans+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 
+/* GENERAL */
+body {
+    font-family: "Raleway" , "sans-serif";
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
 /* NAVBAR */
 .nav-item {
     display: inline;
@@ -30,12 +41,22 @@ a:hover {
 /* IMAGE */ 
 .img-container {
     height: 100vh; 
+    padding-bottom: 10px;
 }
 
 .img-container img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* ABOUT */ 
+#about {
+    padding: 30px 40px 30px 40px;
+}
+
+#about p {
+    padding: 15px;
 }
 
 
