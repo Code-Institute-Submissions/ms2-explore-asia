@@ -3,7 +3,7 @@ This website was designed to help people gain knowledge about countries in Asia.
 providing key information about the countries. Users have a way of looking for flights, of receiving information about restaurants and 
 information about key attractions. The site can be interacted with by the user, allowing them to select which content they wish to read. 
 
-The deployed site can be viewed [here.](#) 
+The deployed site can be viewed [here.](https://github.com/EllyC20/ms2-explore-asia/tree/master/assets/wireframes/ms2-wireframes) 
 
 ## UX 
 
