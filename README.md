@@ -3,7 +3,7 @@ This website was designed to help people gain knowledge about countries in Asia.
 providing key information about the countries. Users have a way of looking for flights, of receiving information about restaurants and 
 information about key attractions. The site can be interacted with by the user, allowing them to select which content they wish to read. 
 
-The deployed site can be viewed [here.](https://github.com/EllyC20/ms2-explore-asia/tree/master/assets/wireframes/ms2-wireframes) 
+The deployed site can be viewed [here.](#) 
 
 ## UX 
 
@@ -11,6 +11,8 @@ The deployed site can be viewed [here.](https://github.com/EllyC20/ms2-explore-a
 * I want to learn about countries in Asia, specifically about the languages or population.
 * I would like to be able to look for flights while visiting the website. 
 * I want to be able to find social media links, for further information.
+* I want to use a map to see recommendations for where to eat.
+* I want to use a map to see recommendations of things to see.
 
 ### Site Owner 
 * I want to provide useful, factual information to the user.
@@ -32,7 +34,7 @@ The deployed site can be viewed [here.](https://github.com/EllyC20/ms2-explore-a
 
 ### 4.Skeleton 
 
-The wireframes for this project can be viewed [here](#).
+The wireframes for this project can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/tree/master/assets/wireframes/ms2-wireframes).
 
 ### 5.Surface 
 
@@ -92,6 +94,8 @@ The wireframes for this project can be viewed [here](#).
 ### Content 
 
 ### Media 
+
+* My homepage image is from Unsplash. The link can be found [here](https://unsplash.com/photos/WXKDnMFiYu8)
 
 ### Acknowledgements
 
