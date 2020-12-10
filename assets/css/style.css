@@ -73,6 +73,9 @@ a:hover {
     border: 1px solid black;
 }
 
-
+#changing-image {
+    height: 360px;
+    width:360px;
+}
 
 
