@@ -73,9 +73,16 @@ a:hover {
     border: 1px solid black;
 }
 
-#changing-image {
-    height: 360px;
-    width:360px;
+/* CHANGING IMAGE */
+#changing-image img {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+
 }
+
+
+
+
 
 
