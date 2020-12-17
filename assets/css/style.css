@@ -38,7 +38,7 @@ a:hover {
     color: #00326e;
 }
 
-/* IMAGE */ 
+/* IMAGES */ 
 .img-container {
     height: 100vh; 
     padding-bottom: 10px;
@@ -46,8 +46,23 @@ a:hover {
 
 .img-container img {
     height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+/* CHANGING IMAGE  */
+#changing-image img {
+    height: 100%;
     width: 100%;
     object-fit: cover;
+    padding-bottom: 10px;
+} 
+
+@media screen and (min-width:1024px) {
+    #changing-image img {
+        height: 360px;
+        width: 360px;
+    }
 }
 
 /* ABOUT */ 
@@ -73,13 +88,19 @@ a:hover {
     border: 1px solid black;
 }
 
-/* CHANGING IMAGE */
-#changing-image img {
-    height: 100%;
-    width:100%;
-    object-fit: cover;
-
+/* MAP */
+#map {
+    height: 360px;
+    width: 360px;
 }
+
+.map-container {
+    padding-top: 30px;
+}
+
+
+
+
 
 
 
