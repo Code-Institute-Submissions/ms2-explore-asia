@@ -98,9 +98,22 @@ a:hover {
     padding-top: 30px;
 }
 
+/* EMAIL */
+.name-area,
+.email-area,
+.message-area {
+    padding: 10px;
+    margin: 5px;
+}
 
+#message {
+    padding: 10px;
+    margin: 5px;
+}
 
-
+.email-container {
+    background-color: #fafafa;
+}
 
 
 
