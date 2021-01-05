@@ -1,5 +1,5 @@
 function indonesiaFlights() {
-fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/CGK-sky/anytime?inboundpartialdate=anytime" + "/", 
+fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/CGK-sky/anytime?inboundpartialdate=anytime" ,
 {
 	"method": "GET",
 	"headers": {
@@ -7,23 +7,23 @@ fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices
 		"x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com"
 	}
 })
-// CREDIT: CODE FROM https://developers.google.com/web/updates/2015/03/introduction-to-fetch AND MODIFIED TO SUIT THIS PROJECT
-.then (async function (response) {
-    if (response.status !== 200) {
-        console.log('Looks like there was a problem. Status Code: ' +
-          response.status);
-      }
 
-    try {
-        const data = await response.json();
-        document.getElementById("flight-data").innerHTML = data.Quotes;
-        console.log(data);
-    }
-    catch (err) {
-        console.error(err);
-    }
+.then(response => {
+    return response.json();
+})
+.then(json => {
+    console.log(json);
+    document.getElementById("text-change").innerHTML = "Find Out Below:";
+    document.getElementById("carriers").innerHTML = JSON.stringify(json.Carriers);
+    document.getElementById("places").innerHTML = JSON.stringify(json.Places);
+    document.getElementById("quotes").innerHTML = JSON.stringify(json.Quotes);
+})
+.catch(error => {
+    console.log("Something went wrong - error!");
+    console.error(error);
 });
 }
+
 
 
 
