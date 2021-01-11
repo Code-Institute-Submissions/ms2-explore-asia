@@ -71,7 +71,7 @@ does the data shown.
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Provides the content and structure.
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides styling to the project.
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - 
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides responsiveness to the site. 
 
 ### Frameworks And Libaries Used 
 
@@ -82,9 +82,12 @@ does the data shown.
 * [RAPID API](https://rapidapi.com/marketplace) - To access API endpoints for the Flight Search API, provided by Skyscanner.
 * [Email JS](https://www.emailjs.com/) - To allow emails to be sent. 
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/overview) - For the map features seen on the site.
+* [REST Countries](https://restcountries.eu/) - API used to provide data about chosen country. 
 
 
 ## Testing 
+
+All testing can be viewed [here](#).
 
 ## Deployment 
 
@@ -116,6 +119,7 @@ does the data shown.
 * The Map comes from Google API. 
 * The Flight Data is provided by Skyscanner API.
 * The Email functionality is provided by EmailJS. 
+* The Country Data is provided by REST countries API.
 * The changing image shown in the "About" section is created by me, using [Canva](https://www.canva.com/)
 
 ### Media 
@@ -127,5 +131,8 @@ does the data shown.
 
 * When implementing the Flight Search API, I referenced this [video](https://www.youtube.com/watch?v=tc8DU14qX6I&t=562s) to help understand how to do this. 
 * I used [JSHint](https://jshint.com/) when working with JavaScript to check for errors.
+* [Stack Overflow](https://stackoverflow.com/) as a general reference. 
+* [W3Schools](https://www.w3schools.com/default.asp) as a general reference. 
+
 
 
