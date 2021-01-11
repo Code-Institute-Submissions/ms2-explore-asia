@@ -1,4 +1,6 @@
-// Map showing SEA and 4 Locations on opening of site 
+//CREDIT: GOOGLE MAP DOCUMENTATION USED TO IMPLEMENT FEATURES. LINK HERE: https://developers.google.com/maps/documentation
+
+//Map showing SEA and 4 Locations on opening of site 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom:3,

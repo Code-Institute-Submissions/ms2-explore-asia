@@ -1,4 +1,6 @@
 // CREDIT API ENDPOINTS PROVIDED BY https://restcountries.eu/
+
+//Indonesia Data
 function indonesiaData(){
     
     fetch("https://restcountries.eu/rest/v2/alpha?codes=id",
@@ -23,7 +25,7 @@ function indonesiaData(){
     });
 
 }
-
+//Singapore Data
 function singaporeData(){
     
     fetch("https://restcountries.eu/rest/v2/alpha?codes=sg",
@@ -48,7 +50,7 @@ function singaporeData(){
     });
 
 }
-
+//Thailand Data
 function thailandData(){
     
     fetch("https://restcountries.eu/rest/v2/alpha?codes=th",
@@ -73,7 +75,7 @@ function thailandData(){
     });
 
 }
-
+//Malaysia Data
 function malaysiaData(){
     
     fetch("https://restcountries.eu/rest/v2/alpha?codes=my",

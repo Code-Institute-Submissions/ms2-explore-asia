@@ -1,3 +1,4 @@
+//CREDIT: ENDPOINTS PROVIDED BY RAPID API. 
 function indonesiaFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/CGK-sky/anytime?inboundpartialdate=anytime",
         {
@@ -15,7 +16,7 @@ function indonesiaFlights() {
             console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers").innerHTML = JSON.stringify(json.Carriers);
-            document.getElementById("places").innerHTML = JSON.stringify(json.Places);
+            document.getElementById("places").innerHTML = json.Places[0].Name;
             document.getElementById("quotes").innerHTML = JSON.stringify(json.Quotes);
         })
         .catch(error => {

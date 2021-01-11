@@ -1,4 +1,4 @@
-// USED CODEINSTITUTE SENDEMAILJS VIDEOS TO IMPLEMENT. 
+// CREDIT: USED CODEINSTITUTE SENDEMAILJS VIDEOS TO IMPLEMENT. 
 function sendMail(contactForm) { 
 
 emailjs.send("service_5b8i6v4","template_yu5z5no", 
