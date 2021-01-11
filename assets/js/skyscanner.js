@@ -15,9 +15,9 @@ function indonesiaFlights() {
         .then(json => {
             console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
-            document.getElementById("carriers").innerHTML = JSON.stringify(json.Carriers);
+            document.getElementById("carriers").innerHTML = json.Carriers[0].Name;
             document.getElementById("places").innerHTML = json.Places[0].Name;
-            document.getElementById("quotes").innerHTML = JSON.stringify(json.Quotes);
+            document.getElementById("quotes").innerHTML = json.Quotes[0].OutboundLeg.DepartureDate;
         })
         .catch(error => {
             console.log("Something went wrong - error!");
