@@ -89,6 +89,18 @@ a:hover {
 .btn:hover {
     color: rgb(245, 129, 66);
 }
+
+.data {
+    margin: 10px;
+    display: inline-table;
+    padding: 15px;
+
+}
+
+#text-change {
+    margin: 10px;
+}
+
 /* MAP */
 #map {
     height: 360px;
