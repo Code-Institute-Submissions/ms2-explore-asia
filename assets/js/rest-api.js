@@ -44,6 +44,7 @@ function singaporeData(){
         document.getElementById("capital-text").innerHTML = json[0].capital;
         document.getElementById("currency-text").innerHTML = json[0].currencies[0].name;
         document.getElementById("population-text").innerHTML = json[0].population;
+        document.getElementById("language-text").innerHTML = json[0].languages[1].nativeName;
     })
 
     .catch(error => {
@@ -69,6 +70,7 @@ function thailandData(){
         document.getElementById("capital-text").innerHTML = json[0].capital;
         document.getElementById("currency-text").innerHTML = json[0].currencies[0].name;
         document.getElementById("population-text").innerHTML = json[0].population;
+        document.getElementById("language-text").innerHTML = json[0].languages[0].name;
     })
 
     .catch(error => {
@@ -94,6 +96,7 @@ function malaysiaData(){
         document.getElementById("capital-text").innerHTML = json[0].capital;
         document.getElementById("currency-text").innerHTML = json[0].currencies[0].name;
         document.getElementById("population-text").innerHTML = json[0].population;
+        document.getElementById("language-text").innerHTML = json[0].languages[0].name;
     })
 
     .catch(error => {
