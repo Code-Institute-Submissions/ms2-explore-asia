@@ -16,8 +16,10 @@ function indonesiaFlights() {
             console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers").innerHTML = json.Carriers[0].Name;
-            document.getElementById("places").innerHTML = json.Places[0].Name;
-            document.getElementById("quotes").innerHTML = json.Quotes[0].OutboundLeg.DepartureDate;
+            document.getElementById("from").innerHTML = json.Places[1].CityName;
+            document.getElementById("to").innerHTML = json.Places[0].CityName;
+            document.getElementById("quotes").innerHTML = json.Quotes[0].MinPrice;
+            document.getElementById("direct").innerHTML = json.Quotes[0].Direct;
         })
         .catch(error => {
             console.log("Something went wrong - error!");
