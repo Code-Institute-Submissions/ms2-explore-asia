@@ -17,6 +17,8 @@ function indonesiaData(){
         document.getElementById("capital-text").innerHTML = json[0].capital;
         document.getElementById("currency-text").innerHTML = json[0].currencies[0].name;
         document.getElementById("population-text").innerHTML = json[0].population;
+        document.getElementById("language-text").innerHTML = json[0].languages[0].nativeName;
+        
     })
 
     .catch(error => {
