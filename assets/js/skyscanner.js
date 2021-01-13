@@ -1,4 +1,6 @@
 //CREDIT: ENDPOINTS PROVIDED BY RAPID API. 
+document.getElementById("indo-flights").addEventListener("click" , indonesiaFlights)
+
 function indonesiaFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/CGK-sky/anytime?inboundpartialdate=anytime",
         {
@@ -27,6 +29,8 @@ function indonesiaFlights() {
         });
 }
 
+document.getElementById("sing-flights").addEventListener("click" , singaporeFlights)
+
 function singaporeFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/SIN-sky/anytime?inboundpartialdate=anytime", {
         "method": "GET",
@@ -54,6 +58,8 @@ function singaporeFlights() {
         });
 }
 
+document.getElementById("thai-flights").addEventListener("click" , thailandFlights)
+
 function thailandFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/BKK-sky/anytime?inboundpartialdate=anytime", {
         "method": "GET",
@@ -80,6 +86,8 @@ function thailandFlights() {
         });
 
 }
+
+document.getElementById("malay-flights").addEventListener("click" , malaysiaFlights)
 
 function malaysiaFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/KUL-sky/anytime?inboundpartialdate=anytime", {

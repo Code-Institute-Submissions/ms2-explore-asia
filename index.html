@@ -9,7 +9,6 @@
     <script src="https://kit.fontawesome.com/d1afe41476.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/map-api.js"></script>
     <script type="text/javascript" src="assets/js/email.js"></script>
-    <script type="text/javascript" src="assets/js/skyscanner.js"></script>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -126,10 +125,10 @@
     <div id="flights-container">
         <h1>Find Your Flights</h1>
         <div class="flight-buttons">
-            <button class="btn" onclick="indonesiaFlights()">For Indonesia</button>
-            <button class="btn" onclick="singaporeFlights()">For Singapore</button>
-            <button class="btn" onclick="thailandFlights()">For Thailand</button>
-            <button class="btn" onclick="malaysiaFlights()">For Malaysia</button>
+            <button class="btn" id="indo-flights">For Indonesia</button>
+            <button class="btn" id="sing-flights">For Singapore</button>
+            <button class="btn" id="thai-flights">For Thailand</button>
+            <button class="btn" id="malay-flights">For Malaysia</button>
         </div>
         <div id="flight-data">
             <p id="text-change">Click on the above countries to show the available flight information.</p>
@@ -179,6 +178,7 @@
     <script type="text/javascript" src="assets/js/map-api.js"></script>
     <script type="text/javascript" src="assets/js/image-change.js"></script>
     <script type="text/javascript" src="assets/js/rest-api.js"></script>
+    <script type="text/javascript" src="assets/js/skyscanner.js"></script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj4-O8vamq0qHTQdm4VhZsMv4JPqATjuo&libraries=places&callback=initMap"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
