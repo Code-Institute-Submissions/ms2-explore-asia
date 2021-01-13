@@ -14,7 +14,7 @@ function initMap() {
 var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 var locations = [
-    { lat: 0.7893,lng: 113.9213 },
+    { lat: -7.5017,lng: 111.2578 },
     { lat: 1.3521,lng: 103.8198 },
     { lat: 15.8700,lng: 100.9925 },
     { lat: 4.2105,lng: 101.9758 },
@@ -35,6 +35,8 @@ new MarkerClusterer (map, markers, {
 }
 
 // To move map to "Indonesia" on button click 
+document.getElementById("indo-btn").addEventListener("click", initMapOne)
+
 function initMapOne() {
   const indonesia = { lat: -7.5017, lng: 111.2578 };
   const map = new google.maps.Map(document.getElementById("map"), {
@@ -48,6 +50,8 @@ function initMapOne() {
 }
 
 // To move map to "Singapore" on button click 
+document.getElementById("singapore-btn").addEventListener("click", initMapTwo)
+
 function initMapTwo() {
   const singapore = { lat: 1.3521, lng: 103.8198 };
   const map = new google.maps.Map(document.getElementById("map"), {
@@ -61,6 +65,8 @@ function initMapTwo() {
 }
 
 // To move map to "Thailand" on button click 
+document.getElementById("thai-btn").addEventListener("click", initMapThree)
+
 function initMapThree() {
   const thailand = { lat: 15.8700, lng: 100.9925 };
   const map = new google.maps.Map(document.getElementById("map"), {
@@ -74,6 +80,8 @@ function initMapThree() {
 }
 
 // To move map to "Malaysia" on button click 
+document.getElementById("malaysia-btn").addEventListener("click", initMapFour)
+
 function initMapFour() {
   const malaysia = { lat: 4.2105, lng: 101.9758 };
   const map = new google.maps.Map(document.getElementById("map"), {
