@@ -1,23 +1,25 @@
-function changeImageOne() {
+document.getElementById("indo-btn").addEventListener("click", function() {
+ 
     document.getElementById("changing-image").innerHTML='<img src="assets/images/indonesia.png">';
     document.getElementById("country-name").innerHTML="Indonesia";
 
-};
+});
 
-function changeImageTwo() {
+document.getElementById("singapore-btn").addEventListener("click", function() {
+
     document.getElementById("changing-image").innerHTML='<img src="assets/images/singapore.png">';
-    document.getElementById("country-name").innerHTML="Singapore";
-    
-};
+    document.getElementById("country-name").innerHTML="Singapore"; 
+});
 
-function changeImageThree() {
+document.getElementById("thai-btn").addEventListener("click", function() {
+
     document.getElementById("changing-image").innerHTML='<img src="assets/images/thailand.png">';
     document.getElementById("country-name").innerHTML="Thailand";
-    
-};
+});
 
-function changeImageFour() {
+document.getElementById("malaysia-btn").addEventListener("click", function() {
+
     document.getElementById("changing-image").innerHTML='<img src="assets/images/malaysia.png">';
     document.getElementById("country-name").innerHTML="Malaysia"
 
-};
+});
