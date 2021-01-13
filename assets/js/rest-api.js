@@ -1,6 +1,8 @@
 // CREDIT API ENDPOINTS PROVIDED BY https://restcountries.eu/
 
 //Indonesia Data
+document.getElementById("indo-btn").addEventListener("click" , indonesiaData)
+
 function indonesiaData(){
     
     fetch("https://restcountries.eu/rest/v2/alpha?codes=id",
@@ -28,6 +30,8 @@ function indonesiaData(){
 
 }
 //Singapore Data
+document.getElementById("singapore-btn").addEventListener("click" , singaporeData)
+
 function singaporeData(){
     
     fetch("https://restcountries.eu/rest/v2/alpha?codes=sg",
@@ -54,6 +58,8 @@ function singaporeData(){
 
 }
 //Thailand Data
+document.getElementById("thai-btn").addEventListener("click" , thailandData)
+
 function thailandData(){
     
     fetch("https://restcountries.eu/rest/v2/alpha?codes=th",
@@ -80,6 +86,8 @@ function thailandData(){
 
 }
 //Malaysia Data
+document.getElementById("malaysia-btn").addEventListener("click" , malaysiaData)
+
 function malaysiaData(){
     
     fetch("https://restcountries.eu/rest/v2/alpha?codes=my",

@@ -10,7 +10,6 @@
     <script type="text/javascript" src="assets/js/map-api.js"></script>
     <script type="text/javascript" src="assets/js/email.js"></script>
     <script type="text/javascript" src="assets/js/skyscanner.js"></script>
-    <script type="text/javascript" src="assets/js/rest-api.js"></script>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -69,16 +68,16 @@
             <div class="container buttons-container">
                 <div class="row">
                     <div class="col-sm">
-                        <button onclick="initMapOne(); indonesiaData()"  id="indo-btn" class="btn" type="button">Indonesia</button>
+                        <button onclick="initMapOne()" id="indo-btn" class="btn" type="button">Indonesia</button>
                     </div>
                     <div class="col-sm">
-                        <button onclick="initMapTwo(); singaporeData()" id="singapore-btn" class="btn" type="button">Singapore</button>
+                        <button onclick="initMapTwo()" id="singapore-btn" class="btn" type="button">Singapore</button>
                     </div>
                     <div class="col-sm">
-                        <button onclick="initMapThree(); thailandData()" id="thai-btn" class="btn" type="button">Thailand</button>
+                        <button onclick="initMapThree()" id="thai-btn" class="btn" type="button">Thailand</button>
                     </div>
                     <div class="col-sm">
-                        <button onclick="initMapFour(); malaysiaData()" id="malaysia-btn" class="btn" type="button">Malaysia</button>
+                        <button onclick="initMapFour()" id="malaysia-btn" class="btn" type="button">Malaysia</button>
                     </div>
                 </div>
             </div>
@@ -178,6 +177,7 @@
     </footer>
 
     <script type="text/javascript" src="assets/js/image-change.js"></script>
+    <script type="text/javascript" src="assets/js/rest-api.js"></script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj4-O8vamq0qHTQdm4VhZsMv4JPqATjuo&libraries=places&callback=initMap"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
