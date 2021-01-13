@@ -6,9 +6,6 @@
     <title>Explore Asia</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/d1afe41476.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/js/map-api.js"></script>
-    <script type="text/javascript" src="assets/js/email.js"></script>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -111,9 +108,14 @@
     <div class="container map-container">
         <div class="row">
              <div class="col-sm map-buttons"> 
-                <button class="btn" type="button">Restaurants</button>
-                <button class="btn" type="button">Attractions</button>
-                <button class="btn" type="button">Accomodation</button>
+                <button class="btn" id="indo-map" type="button">Indonesia</button>
+                <p></p>
+                <button class="btn" id="sing-map" type="button">Singapore</button>
+                <p></p>
+                <button class="btn" id="thai-map" type="button">Thailand</button>
+                <p></p>
+                <button class="btn" id="malay-map" type="button">Malaysia</button>
+                <p></p>
             </div>
             <div class="col-sm" id="map"></div>
         </div>
@@ -133,11 +135,11 @@
         <div id="flight-data">
             <p id="text-change">Click on the above countries to show the available flight information.</p>
             <br>
-            <p class="data"><strong>Carriers:</strong><br><span id="carriers"></span></p>
-            <p class="data"><strong>From:</strong><br><span id="from"></span></p>
-            <p class="data"><strong>To:</strong><br><span id="to"></span></p>
-            <p class="data"><strong>Cost:</strong><br><span id="quotes"></span></p>
-            <p class="data"><strong>Direct Flight:</strong><br><span id="direct"></span></p>
+            <p class="data"><strong><u>Carriers:</u></strong><br><span id="carriers"></span></p>
+            <p class="data"><strong><u>From:</u></strong><br><span id="from"></span></p>
+            <p class="data"><strong><u>To:</u></strong><br><span id="to"></span></p>
+            <p class="data"><strong><u>Cost:</u></strong><br><span id="quotes"></span></p>
+            <p class="data"><strong><u>Direct Flight:</u></strong><br><span id="direct"></span></p>
         </div>
         <small>Data Provided By Skyscanner API</small>
     </div>
@@ -162,7 +164,7 @@
                 <textarea name="message" id="message" cols="10" rows="5" class="form-control" required></textarea>
             </div>
             <div>
-                <button type="submit" class="btn " id="submit-btn">Send Now!</button>
+                <button type="submit" class="btn" id="submit-btn">Send Now!</button>
             </div>
         </form>
     </div>
@@ -180,6 +182,9 @@
     <script type="text/javascript" src="assets/js/image-change.js"></script>
     <script type="text/javascript" src="assets/js/rest-api.js"></script>
     <script type="text/javascript" src="assets/js/skyscanner.js"></script>
+    <script type="text/javascript" src="assets/js/map-api.js"></script>
+    <script type="text/javascript" src="assets/js/email.js"></script>
+    <script src="https://kit.fontawesome.com/d1afe41476.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj4-O8vamq0qHTQdm4VhZsMv4JPqATjuo&libraries=places&callback=initMap"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -97,6 +97,10 @@ a:hover {
 
 }
 
+.map-buttons {
+    display: inline-grid;
+}
+
 #text-change {
     margin: 10px;
 }
