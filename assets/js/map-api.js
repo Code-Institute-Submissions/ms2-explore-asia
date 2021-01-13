@@ -36,7 +36,7 @@ new MarkerClusterer (map, markers, {
 
 // To move map to "Indonesia" on button click 
 function initMapOne() {
-  const indonesia = { lat: 0.7893, lng: 113.9213 };
+  const indonesia = { lat: -7.5017, lng: 111.2578 };
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
     center: indonesia,
