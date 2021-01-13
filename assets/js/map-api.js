@@ -18,20 +18,7 @@ var locations = [
     { lat: 1.3521,lng: 103.8198 },
     { lat: 15.8700,lng: 100.9925 },
     { lat: 4.2105,lng: 101.9758 },
-];
-
-var markers = locations.map(function(location, i) {
-    return new google.maps.Marker({
-        position: location,
-        label: labels[i % labels.length]
-    });
-});
-
-new MarkerClusterer (map, markers, {
-    imagePath:
-      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-  });
-
+    ];
 }
 
 // To move map to "Indonesia" on button click 
@@ -40,7 +27,7 @@ document.getElementById("indo-btn").addEventListener("click", initMapOne)
 function initMapOne() {
   const indonesia = { lat: -7.5017, lng: 111.2578 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 6,
     center: indonesia,
   });
   const marker = new google.maps.Marker({
@@ -55,7 +42,7 @@ document.getElementById("singapore-btn").addEventListener("click", initMapTwo)
 function initMapTwo() {
   const singapore = { lat: 1.3521, lng: 103.8198 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 6,
     center: singapore,
   });
   const marker = new google.maps.Marker({
@@ -70,7 +57,7 @@ document.getElementById("thai-btn").addEventListener("click", initMapThree)
 function initMapThree() {
   const thailand = { lat: 15.8700, lng: 100.9925 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 6,
     center: thailand,
   });
   const marker = new google.maps.Marker({
@@ -85,7 +72,7 @@ document.getElementById("malaysia-btn").addEventListener("click", initMapFour)
 function initMapFour() {
   const malaysia = { lat: 4.2105, lng: 101.9758 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 6,
     center: malaysia,
   });
   const marker = new google.maps.Marker({
@@ -93,4 +80,5 @@ function initMapFour() {
     map: map,
   });
 }
+// WHAT TO SEE SECTION 
 
