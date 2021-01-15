@@ -123,16 +123,13 @@ function initMapFive() {
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
 }
+
 //Singapore
 document.getElementById("sing-map").addEventListener("click", initMapSix)
 
 document.getElementById("sing-map").addEventListener("click", function() {
   document.getElementById("sing-text").innerHTML = 
   "<h1>Restaurants:</h1> <br> <li>A: Burnt Ends</li> <li>B: Corner House </li> <li>C: Chinatown Food Street </li> <h1>Attractions:</h1> <br> <li>D: Marina Bay Sands</li> <li>E: Gardens By The Bay</li>"
-});
-
-document.getElementById("sing-map").addEventListener("click", function() {
-    document.getElementById("indo-text").innerHTML = ""
 });
 
 function initMapSix() {
@@ -168,4 +165,45 @@ function initMapSix() {
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
 }
- 
+
+//Thailand
+document.getElementById("thai-map").addEventListener("click", initMapSeven)
+
+document.getElementById("thai-map").addEventListener("click", function() {
+  document.getElementById("thai-text").innerHTML = 
+  "<h1>Restaurants:</h1> <br> <li>A: Mu's Katsu</li> <li>B: Siam Supper Club</li> <li>C: Red Sky Bar</li> <h1>Attractions:</h1> <br> <li>D: Pattaya Floating Market</li> <li>E: Chiang Mai Night Bazaar</li>"
+});
+
+function initMapSeven() {
+
+    var thaiMap = new google.maps.Map(document.getElementById("map"), {
+        zoom: 5,
+        center: {
+            lat: 15.8700,
+            lng: 100.9925
+        }
+    });
+
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    var locations = [
+        { lat: 18.7966, lng: 98.9656 }, // Mu's Katsu
+        { lat: 7.9948, lng: 98.3059  }, // Siam Supper Club
+        { lat: 13.7480, lng: 100.5387 }, // Red Sky Bar
+        { lat: 12.8684, lng: 100.9043}, // Pattaya Floating Market
+        { lat: 18.7853, lng: 99.0003}, // Chiang Mai Night Bazaar
+
+    ];
+
+    var markers = locations.map(function (location, i) {
+        return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+        });
+    });
+
+    new MarkerClusterer(thaiMap, markers, {
+        imagePath:
+            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    });
+}
