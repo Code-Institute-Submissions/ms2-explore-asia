@@ -103,11 +103,11 @@ function initMapFive() {
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [
-        { lat: -6.1936, lng: 106.8238 }, // sana sini jakarta
-        { lat: -7.9769, lng: 112.6330  }, // saigon san malang
-        { lat: -8.6525, lng: 115.1312 }, // fullfeel canggu bali 
-        { lat: -7.7520, lng: 110.4915}, // prambanan temple yogja 
-        { lat: -7.9425, lng: 112.9530}, // mt bromo java 
+        { lat: -6.1936, lng: 106.8238 }, // Sana Sini Jakarta
+        { lat: -7.9769, lng: 112.6330  }, // Saigon San Malang
+        { lat: -8.6525, lng: 115.1312 }, // Fullfeel Canggu Bali 
+        { lat: -7.7520, lng: 110.4915}, // Prambanan Temple Yogja 
+        { lat: -7.9425, lng: 112.9530}, // Mt Bromo Java 
 
     ];
 
@@ -203,6 +203,49 @@ function initMapSeven() {
     });
 
     new MarkerClusterer(thaiMap, markers, {
+        imagePath:
+            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    });
+}
+
+//Malaysia
+document.getElementById("malay-map").addEventListener("click", initMapSeven)
+
+document.getElementById("malay-map").addEventListener("click", function() {
+  document.getElementById("malay-text").innerHTML = 
+  "<h1>Restaurants:</h1> <br> <li>A: Burger On 16</li> <li>B: My Own Cafe</li> <li>C: Eat Street</li> <h1>Attractions:</h1> <br> <li>D: Petronas Towers</li> <li>E: Batu Caves</li>"
+});
+
+function initMapSeven() {
+
+    var malayMap = new google.maps.Map(document.getElementById("map"), {
+        zoom: 7,
+        center: {
+            lat: 4.2105,
+            lng: 101.9758
+        }
+    
+    });
+
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    var locations = [
+        { lat: 3.1414, lng: 101.7094 }, // Burger On 16
+        { lat: 5.4152, lng:  100.3368 }, // My Own Cafe
+        { lat: 3.1459, lng:  101.7090}, // Eat Street
+        { lat: 3.1579, lng: 101.7120}, // Petronas Towers
+        { lat: 3.2379, lng: 101.6840 }, // Batu Caves
+
+    ];
+
+    var markers = locations.map(function (location, i) {
+        return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+        });
+    });
+
+    new MarkerClusterer(malayMap, markers, {
         imagePath:
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
