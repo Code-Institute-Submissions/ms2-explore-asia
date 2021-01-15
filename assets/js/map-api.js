@@ -82,7 +82,7 @@ function initMapFour() {
     });
 }
 // WHAT TO SEE SECTION
-
+// Indonesia
 document.getElementById("indo-map").addEventListener("click", initMapFive)
 
 document.getElementById("indo-map").addEventListener("click", function() {
@@ -119,6 +119,51 @@ function initMapFive() {
     });
 
     new MarkerClusterer(indoMap, markers, {
+        imagePath:
+            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    });
+}
+//Singapore
+document.getElementById("sing-map").addEventListener("click", initMapSix)
+
+document.getElementById("sing-map").addEventListener("click", function() {
+  document.getElementById("sing-text").innerHTML = 
+  "<h1>Restaurants:</h1> <br> <li>A: Burnt Ends</li> <li>B: Corner House </li> <li>C: Chinatown Food Street </li> <h1>Attractions:</h1> <br> <li>D: Marina Bay Sands</li> <li>E: Gardens By The Bay</li>"
+});
+
+document.getElementById("sing-map").addEventListener("click", function() {
+    document.getElementById("indo-text").innerHTML = ""
+});
+
+function initMapSix() {
+
+    var singMap = new google.maps.Map(document.getElementById("map"), {
+        zoom: 10,
+        center: {
+            lat: 1.3521,
+            lng: 103.8198
+        }
+    });
+
+    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    var locations = [
+        { lat: 1.2805, lng: 103.8418 }, // Burnt Ends
+        { lat: 1.3150, lng: 103.8154  }, // Corner house
+        { lat: 1.2823, lng: 103.8440 }, // Chinatown Food Street
+        { lat: 1.2847, lng: 103.8610}, // Marina Bay Sands 
+        { lat: 1.2816, lng: 103.8636}, // Gardens by the bay 
+
+    ];
+
+    var markers = locations.map(function (location, i) {
+        return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+        });
+    });
+
+    new MarkerClusterer(singMap, markers, {
         imagePath:
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
