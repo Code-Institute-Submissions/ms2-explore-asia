@@ -85,6 +85,11 @@ function initMapFour() {
 
 document.getElementById("indo-map").addEventListener("click", initMapFive)
 
+document.getElementById("indo-map").addEventListener("click", function() {
+  document.getElementById("indo-text").innerHTML = 
+  "<h1>Restaurants:</h1> <br> <li>A: Sani Sini</li> <li>B: Saigon San</li> <li>C: Fullfeel Cafe</li> <h1>Attractions:</h1> <br> <li>D: Prambanan Temple</li> <li>E: Mount Bromo</li>"
+});
+
 function initMapFive() {
 
     var indoMap = new google.maps.Map(document.getElementById("map"), {
@@ -95,13 +100,15 @@ function initMapFive() {
         }
     });
 
-
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [
         { lat: -6.1936, lng: 106.8238 }, // sana sini jakarta
         { lat: -7.9769, lng: 112.6330  }, // saigon san malang
         { lat: -8.6525, lng: 115.1312 }, // fullfeel canggu bali 
+        { lat: -7.7520, lng: 110.4915}, // prambanan temple yogja 
+        { lat: -7.9425, lng: 112.9530}, // mt bromo java 
+
     ];
 
     var markers = locations.map(function (location, i) {
@@ -113,7 +120,7 @@ function initMapFive() {
 
     new MarkerClusterer(indoMap, markers, {
         imagePath:
-            "http://maps.google.com/mapfiles/kml/shapes/dining.png"
+            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
 }
  
