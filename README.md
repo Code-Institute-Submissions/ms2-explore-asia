@@ -56,14 +56,17 @@ focus being on markets in this image. Immediately the user can "see Asia" and wh
 
 * A fixed Navbar, ensuring the user access to the menu at all points.
 * A single scrolling page, allowing ease of use to the user.
-* An interactive map, where the user chooses the destination via a button and is shown this location on the map. 
+* An map, where the user chooses the destination via a button and is shown this location on the map. 
 * The abilty to edit content, when the user selects a button the site is changed. The image image shown in about changes to reflect the users choice, as 
 does the data shown. 
 * The email feauture allows emails to be sent to the site owner. 
+* A flight information section, showing flights from Ireland to the chosen destination.
 
 ### Feautures To Be Implemented 
 
 * An option to allow users to sign up for a monthly newsletter, that would provide up to date information regarding deals on hotels and flights.
+* The flight section could be developed further with more knowledge and skills, it could be developed to provide a "search" function, allowing the user to choose
+different flight paths. 
 
 ## Technologies Used 
 
