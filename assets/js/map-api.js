@@ -132,6 +132,7 @@ document.getElementById("sing-map").addEventListener("click", function() {
   "<h1>Restaurants:</h1> <br> <li>A: Burnt Ends</li> <li>B: Corner House </li> <li>C: Chinatown Food Street </li> <h1>Attractions:</h1> <br> <li>D: Marina Bay Sands</li> <li>E: Gardens By The Bay</li>"
 });
 
+
 function initMapSix() {
 
     var singMap = new google.maps.Map(document.getElementById("map"), {
@@ -250,3 +251,30 @@ function initMapSeven() {
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
     });
 }
+
+// To clear text content on btn click 
+document.getElementById("indo-map").addEventListener("click", function() {
+    document.getElementById("sing-text").innerHTML = "" , 
+    document.getElementById("thai-text").innerHTML = "",
+    document.getElementById("malay-text").innerHTML = ""
+})
+
+document.getElementById("sing-map").addEventListener("click", function() {
+    document.getElementById("indo-text").innerHTML = "" , 
+    document.getElementById("thai-text").innerHTML = "",
+    document.getElementById("malay-text").innerHTML = ""
+})
+
+document.getElementById("thai-map").addEventListener("click", function() {
+    document.getElementById("indo-text").innerHTML = "" , 
+    document.getElementById("sing-text").innerHTML = "",
+    document.getElementById("malay-text").innerHTML = ""
+})
+
+document.getElementById("malay-map").addEventListener("click", function() {
+    document.getElementById("indo-text").innerHTML = "" , 
+    document.getElementById("sing-text").innerHTML = "",
+    document.getElementById("thai-text").innerHTML = ""
+})
+
+
