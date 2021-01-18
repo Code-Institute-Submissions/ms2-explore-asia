@@ -87,7 +87,7 @@ document.getElementById("indo-map").addEventListener("click", initMapFive)
 
 document.getElementById("indo-map").addEventListener("click", function() {
   document.getElementById("indo-text").innerHTML = 
-  "<h1>Restaurants:</h1> <br> <li>A: Sani Sini</li> <li>B: Saigon San</li> <li>C: Fullfeel Cafe</li> <h1>Attractions:</h1> <br> <li>D: Prambanan Temple</li> <li>E: Mount Bromo</li>"
+  "<h1>Restaurants:</h1><li>A: Sani Sini</li> <li>B: Saigon San</li> <li>C: Fullfeel Cafe</li> <h1>Attractions:</h1><li>D: Prambanan Temple</li> <li>E: Mount Bromo</li>"
 });
 
 function initMapFive() {
@@ -129,7 +129,7 @@ document.getElementById("sing-map").addEventListener("click", initMapSix)
 
 document.getElementById("sing-map").addEventListener("click", function() {
   document.getElementById("sing-text").innerHTML = 
-  "<h1>Restaurants:</h1> <br> <li>A: Burnt Ends</li> <li>B: Corner House </li> <li>C: Chinatown Food Street </li> <h1>Attractions:</h1> <br> <li>D: Marina Bay Sands</li> <li>E: Gardens By The Bay</li>"
+  "<h1>Restaurants:</h1><li>A: Burnt Ends</li> <li>B: Corner House </li> <li>C: Chinatown Food Street </li> <h1>Attractions:</h1><li>D: Marina Bay Sands</li> <li>E: Gardens By The Bay</li>"
 });
 
 
@@ -172,7 +172,7 @@ document.getElementById("thai-map").addEventListener("click", initMapSeven)
 
 document.getElementById("thai-map").addEventListener("click", function() {
   document.getElementById("thai-text").innerHTML = 
-  "<h1>Restaurants:</h1> <br> <li>A: Mu's Katsu</li> <li>B: Siam Supper Club</li> <li>C: Red Sky Bar</li> <h1>Attractions:</h1> <br> <li>D: Pattaya Floating Market</li> <li>E: Chiang Mai Night Bazaar</li>"
+  "<h1>Restaurants:</h1><li>A: Mu's Katsu</li> <li>B: Siam Supper Club</li> <li>C: Red Sky Bar</li> <h1>Attractions:</h1><li>D: Pattaya Floating Market</li> <li>E: Chiang Mai Night Bazaar</li>"
 });
 
 function initMapSeven() {
@@ -210,14 +210,14 @@ function initMapSeven() {
 }
 
 //Malaysia
-document.getElementById("malay-map").addEventListener("click", initMapSeven)
+document.getElementById("malay-map").addEventListener("click", initMapEight)
 
 document.getElementById("malay-map").addEventListener("click", function() {
   document.getElementById("malay-text").innerHTML = 
-  "<h1>Restaurants:</h1> <br> <li>A: Burger On 16</li> <li>B: My Own Cafe</li> <li>C: Eat Street</li> <h1>Attractions:</h1> <br> <li>D: Petronas Towers</li> <li>E: Batu Caves</li>"
+  "<h1>Restaurants:</h1><li>A: Burger On 16</li> <li>B: My Own Cafe</li> <li>C: Eat Street</li> <h1>Attractions:</h1><li>D: Petronas Towers</li> <li>E: Batu Caves</li>"
 });
 
-function initMapSeven() {
+function initMapEight() {
 
     var malayMap = new google.maps.Map(document.getElementById("map"), {
         zoom: 7,
