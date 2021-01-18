@@ -26,7 +26,7 @@ function indonesiaFlights() {
             document.getElementById("quotes-one").innerHTML = json.Quotes[0].MinPrice;
             document.getElementById("quotes-two").innerHTML = json.Quotes[1].MinPrice;
             document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
-            document.getElementById("direct-two").innerHTML = json.Quotes[0].Direct;
+            document.getElementById("direct-two").innerHTML = json.Quotes[1].Direct;
         })
         .catch(error => {
             console.log("Something went wrong - error!");
@@ -51,11 +51,16 @@ function singaporeFlights() {
         .then(json => {
             console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
-            document.getElementById("carriers").innerHTML = json.Carriers[0].Name;
-            document.getElementById("from").innerHTML = json.Places[0].CityName;
-            document.getElementById("to").innerHTML = json.Places[1].CityName;
-            document.getElementById("quotes").innerHTML = json.Quotes[0].MinPrice;
-            document.getElementById("direct").innerHTML = json.Quotes[0].Direct;
+            document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
+            document.getElementById("carriers-two").innerHTML = json.Carriers[1].Name;
+            document.getElementById("from-one").innerHTML = json.Places[0].CityName;
+            document.getElementById("from-two").innerHTML = json.Places[0].CityName;
+            document.getElementById("to-one").innerHTML = json.Places[1].CityName;
+            document.getElementById("to-two").innerHTML = json.Places[1].CityName;
+            document.getElementById("quotes-one").innerHTML = json.Quotes[0].MinPrice;
+            document.getElementById("quotes-two").innerHTML = json.Quotes[12].MinPrice;
+            document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
+            document.getElementById("direct-two").innerHTML = json.Quotes[12].Direct;
         })
         .catch(error => {
             console.log("Something went wrong - error!");
@@ -79,11 +84,12 @@ function thailandFlights() {
         .then(json => {
             console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
-            document.getElementById("carriers").innerHTML = json.Carriers[0].Name;
-            document.getElementById("from").innerHTML = json.Places[1].CityName;
-            document.getElementById("to").innerHTML = json.Places[0].CityName;
-            document.getElementById("quotes").innerHTML = json.Quotes[0].MinPrice;
-            document.getElementById("direct").innerHTML = json.Quotes[0].Direct;
+            document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
+            document.getElementById("carriers-two").innerHTML = json.Carriers[0].Name;
+            document.getElementById("from-one").innerHTML = json.Places[1].CityName;
+            document.getElementById("to-one").innerHTML = json.Places[0].CityName;
+            document.getElementById("quotes-one").innerHTML = json.Quotes[0].MinPrice;
+            document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
         })
         .catch(error => {
             console.log("Something went wrong - error!");
