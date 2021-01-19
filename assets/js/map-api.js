@@ -1,5 +1,4 @@
 //CREDIT: GOOGLE MAP DOCUMENTATION USED TO IMPLEMENT FEATURES. LINK HERE: https://developers.google.com/maps/documentation
-
 //Map showing SEA and 4 Locations on opening of site 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
@@ -23,7 +22,7 @@ function initMap() {
 
 // To move map to "Indonesia" on button click 
 
-document.getElementById("indo-btn").addEventListener("click", initMapOne)
+document.getElementById("indo-btn").addEventListener("click", initMapOne);
 
 function initMapOne() {
     const indonesia = { lat: -7.5017, lng: 111.2578 };
@@ -38,7 +37,7 @@ function initMapOne() {
 }
 
 // To move map to "Singapore" on button click 
-document.getElementById("singapore-btn").addEventListener("click", initMapTwo)
+document.getElementById("singapore-btn").addEventListener("click", initMapTwo);
 
 function initMapTwo() {
     const singapore = { lat: 1.3521, lng: 103.8198 };
@@ -53,7 +52,7 @@ function initMapTwo() {
 }
 
 // To move map to "Thailand" on button click 
-document.getElementById("thai-btn").addEventListener("click", initMapThree)
+document.getElementById("thai-btn").addEventListener("click", initMapThree);
 
 function initMapThree() {
     const thailand = { lat: 15.8700, lng: 100.9925 };
@@ -68,7 +67,7 @@ function initMapThree() {
 }
 
 // To move map to "Malaysia" on button click 
-document.getElementById("malaysia-btn").addEventListener("click", initMapFour)
+document.getElementById("malaysia-btn").addEventListener("click", initMapFour);
 
 function initMapFour() {
     const malaysia = { lat: 4.2105, lng: 101.9758 };
@@ -83,11 +82,11 @@ function initMapFour() {
 }
 // WHAT TO SEE SECTION
 // Indonesia
-document.getElementById("indo-map").addEventListener("click", initMapFive)
+document.getElementById("indo-map").addEventListener("click", initMapFive);
 
 document.getElementById("indo-map").addEventListener("click", function() {
   document.getElementById("indo-text").innerHTML = 
-  "<h1>Restaurants:</h1><li>A: Sani Sini</li> <li>B: Saigon San</li> <li>C: Fullfeel Cafe</li> <h1>Attractions:</h1><li>D: Prambanan Temple</li> <li>E: Mount Bromo</li>"
+  "<h1>Restaurants:</h1><li>A: Sani Sini</li> <li>B: Saigon San</li> <li>C: Fullfeel Cafe</li> <h1>Attractions:</h1><li>D: Prambanan Temple</li> <li>E: Mount Bromo</li>";
 });
 
 function initMapFive() {
@@ -125,11 +124,11 @@ function initMapFive() {
 }
 
 //Singapore
-document.getElementById("sing-map").addEventListener("click", initMapSix)
+document.getElementById("sing-map").addEventListener("click", initMapSix);
 
 document.getElementById("sing-map").addEventListener("click", function() {
   document.getElementById("sing-text").innerHTML = 
-  "<h1>Restaurants:</h1><li>A: Burnt Ends</li> <li>B: Corner House </li> <li>C: Chinatown Food Street </li> <h1>Attractions:</h1><li>D: Marina Bay Sands</li> <li>E: Gardens By The Bay</li>"
+  "<h1>Restaurants:</h1><li>A: Burnt Ends</li> <li>B: Corner House </li> <li>C: Chinatown Food Street </li> <h1>Attractions:</h1><li>D: Marina Bay Sands</li> <li>E: Gardens By The Bay</li>";
 });
 
 
@@ -168,11 +167,11 @@ function initMapSix() {
 }
 
 //Thailand
-document.getElementById("thai-map").addEventListener("click", initMapSeven)
+document.getElementById("thai-map").addEventListener("click", initMapSeven);
 
 document.getElementById("thai-map").addEventListener("click", function() {
   document.getElementById("thai-text").innerHTML = 
-  "<h1>Restaurants:</h1><li>A: Mu's Katsu</li> <li>B: Siam Supper Club</li> <li>C: Red Sky Bar</li> <h1>Attractions:</h1><li>D: Pattaya Floating Market</li> <li>E: Chiang Mai Night Bazaar</li>"
+  "<h1>Restaurants:</h1><li>A: Mu's Katsu</li> <li>B: Siam Supper Club</li> <li>C: Red Sky Bar</li> <h1>Attractions:</h1><li>D: Pattaya Floating Market</li> <li>E: Chiang Mai Night Bazaar</li>";
 });
 
 function initMapSeven() {
@@ -210,11 +209,11 @@ function initMapSeven() {
 }
 
 //Malaysia
-document.getElementById("malay-map").addEventListener("click", initMapEight)
+document.getElementById("malay-map").addEventListener("click", initMapEight);
 
 document.getElementById("malay-map").addEventListener("click", function() {
   document.getElementById("malay-text").innerHTML = 
-  "<h1>Restaurants:</h1><li>A: Burger On 16</li> <li>B: My Own Cafe</li> <li>C: Eat Street</li> <h1>Attractions:</h1><li>D: Petronas Towers</li> <li>E: Batu Caves</li>"
+  "<h1>Restaurants:</h1><li>A: Burger On 16</li> <li>B: My Own Cafe</li> <li>C: Eat Street</li> <h1>Attractions:</h1><li>D: Petronas Towers</li> <li>E: Batu Caves</li>";
 });
 
 function initMapEight() {
@@ -256,25 +255,25 @@ function initMapEight() {
 document.getElementById("indo-map").addEventListener("click", function() {
     document.getElementById("sing-text").innerHTML = "" , 
     document.getElementById("thai-text").innerHTML = "",
-    document.getElementById("malay-text").innerHTML = ""
-})
+    document.getElementById("malay-text").innerHTML = "";
+});
 
 document.getElementById("sing-map").addEventListener("click", function() {
     document.getElementById("indo-text").innerHTML = "" , 
     document.getElementById("thai-text").innerHTML = "",
-    document.getElementById("malay-text").innerHTML = ""
-})
+    document.getElementById("malay-text").innerHTML = "";
+});
 
 document.getElementById("thai-map").addEventListener("click", function() {
     document.getElementById("indo-text").innerHTML = "" , 
     document.getElementById("sing-text").innerHTML = "",
-    document.getElementById("malay-text").innerHTML = ""
-})
+    document.getElementById("malay-text").innerHTML = "";
+});
 
 document.getElementById("malay-map").addEventListener("click", function() {
     document.getElementById("indo-text").innerHTML = "" , 
     document.getElementById("sing-text").innerHTML = "",
-    document.getElementById("thai-text").innerHTML = ""
-})
+    document.getElementById("thai-text").innerHTML = "";
+});
 
 

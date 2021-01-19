@@ -11,11 +11,11 @@ function sendMail(contactForm) {
 
         .then(
             function () {
-                document.getElementById("submit-btn").innerHTML = "Sent!"
+                document.getElementById("submit-btn").innerHTML = "Sent!";
 
             },
             function (error) {
-                alert("Sorry something went wrong - please try again.", error)
+                alert("Sorry something went wrong - please try again.", error);
             }
         );
 

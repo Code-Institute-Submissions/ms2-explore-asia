@@ -1,7 +1,7 @@
 // CREDIT API ENDPOINTS PROVIDED BY https://restcountries.eu/
 
 //Indonesia Data
-document.getElementById("indo-btn").addEventListener("click" , indonesiaData)
+document.getElementById("indo-btn").addEventListener("click" , indonesiaData);
 
 function indonesiaData(){
     
@@ -11,7 +11,7 @@ function indonesiaData(){
     })
 
     .then(response => {
-        return response.json()
+        return response.json();
 
     })
     .then(json => {
@@ -30,7 +30,7 @@ function indonesiaData(){
 
 }
 //Singapore Data
-document.getElementById("singapore-btn").addEventListener("click" , singaporeData)
+document.getElementById("singapore-btn").addEventListener("click" , singaporeData);
 
 function singaporeData(){
     
@@ -40,7 +40,7 @@ function singaporeData(){
     })
 
     .then(response => {
-        return response.json()
+        return response.json();
 
     })
     .then(json => {
@@ -58,7 +58,7 @@ function singaporeData(){
 
 }
 //Thailand Data
-document.getElementById("thai-btn").addEventListener("click" , thailandData)
+document.getElementById("thai-btn").addEventListener("click" , thailandData);
 
 function thailandData(){
     
@@ -68,7 +68,7 @@ function thailandData(){
     })
 
     .then(response => {
-        return response.json()
+        return response.json();
 
     })
     .then(json => {
@@ -86,7 +86,7 @@ function thailandData(){
 
 }
 //Malaysia Data
-document.getElementById("malaysia-btn").addEventListener("click" , malaysiaData)
+document.getElementById("malaysia-btn").addEventListener("click" , malaysiaData);
 
 function malaysiaData(){
     
@@ -96,7 +96,7 @@ function malaysiaData(){
     })
 
     .then(response => {
-        return response.json()
+        return response.json();
 
     })
     .then(json => {

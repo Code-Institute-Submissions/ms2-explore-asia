@@ -20,6 +20,6 @@ document.getElementById("thai-btn").addEventListener("click", function() {
 document.getElementById("malaysia-btn").addEventListener("click", function() {
 
     document.getElementById("changing-image").innerHTML='<img src="assets/images/malaysia.png">';
-    document.getElementById("country-name").innerHTML="Malaysia"
+    document.getElementById("country-name").innerHTML="Malaysia";
 
 });
