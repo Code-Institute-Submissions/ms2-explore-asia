@@ -90,7 +90,7 @@ different flight paths.
 
 ## Testing 
 
-All testing can be viewed [here](#).
+All testing can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/blob/master/TESTING.md).
 
 ## Deployment 
 
