@@ -93,8 +93,9 @@ a:hover {
 }
 
 .btn {
-    margin: 10px;
+    margin: 15px;
     border: 1px solid black;
+    letter-spacing: 2px;
 }
 
 .btn:hover {
@@ -110,6 +111,12 @@ a:hover {
 
 .map-buttons {
     display: inline-grid;
+}
+
+@media screen and (max-width: 425px) {
+    .visit-buttons {
+        display: inline-grid;
+    }
 }
 
 #text-change {
@@ -145,6 +152,11 @@ a:hover {
 
 .email-container {
     background-color: rgba(189, 220, 222,0.5);
+    margin-top: 25px;
+}
+
+#email-h1 {
+    margin-top: 10px;
 }
 
 /*FOOTER*/
