@@ -15,6 +15,10 @@ h1 {
     color: rgb(245, 129, 66);
 }
 
+.hidden {
+    display: none;
+}
+
 /* NAVBAR */
 .nav-item {
     display: inline;
