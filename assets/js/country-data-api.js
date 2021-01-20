@@ -15,7 +15,6 @@ function indonesiaData(){
 
     })
     .then(json => {
-        console.log(json);
         document.getElementById("capital-text").innerHTML = json[0].capital;
         document.getElementById("currency-text").innerHTML = json[0].currencies[0].name;
         document.getElementById("population-text").innerHTML = json[0].population;
@@ -24,8 +23,7 @@ function indonesiaData(){
     })
 
     .catch(error => {
-        console.log("Something went wrong - error!");
-        console.error(error);
+        document.getElementById("country-name").innerHTML = "Sorry this information is not available right now. Please try again later."
     });
 
 }
@@ -44,7 +42,6 @@ function singaporeData(){
 
     })
     .then(json => {
-        console.log(json);
         document.getElementById("capital-text").innerHTML = json[0].capital;
         document.getElementById("currency-text").innerHTML = json[0].currencies[0].name;
         document.getElementById("population-text").innerHTML = json[0].population;
@@ -52,8 +49,7 @@ function singaporeData(){
     })
 
     .catch(error => {
-        console.log("Something went wrong - error!");
-        console.error(error);
+        document.getElementById("country-name").innerHTML = "Sorry this information is not available right now. Please try again later."
     });
 
 }
@@ -72,7 +68,6 @@ function thailandData(){
 
     })
     .then(json => {
-        console.log(json);
         document.getElementById("capital-text").innerHTML = json[0].capital;
         document.getElementById("currency-text").innerHTML = json[0].currencies[0].name;
         document.getElementById("population-text").innerHTML = json[0].population;
@@ -80,8 +75,7 @@ function thailandData(){
     })
 
     .catch(error => {
-        console.log("Something went wrong - error!");
-        console.error(error);
+        document.getElementById("country-name").innerHTML = "Sorry this information is not available right now. Please try again later."
     });
 
 }
@@ -100,7 +94,6 @@ function malaysiaData(){
 
     })
     .then(json => {
-        console.log(json);
         document.getElementById("capital-text").innerHTML = json[0].capital;
         document.getElementById("currency-text").innerHTML = json[0].currencies[0].name;
         document.getElementById("population-text").innerHTML = json[0].population;
@@ -108,8 +101,7 @@ function malaysiaData(){
     })
 
     .catch(error => {
-        console.log("Something went wrong - error!");
-        console.error(error);
+        document.getElementById("country-name").innerHTML = "Sorry this information is not available right now. Please try again later."
     });
 
 }
