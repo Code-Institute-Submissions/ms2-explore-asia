@@ -67,6 +67,12 @@ does the data shown.
 * An option to allow users to sign up for a monthly newsletter, that would provide up to date information regarding deals on hotels and flights.
 * The flight section could be developed further with more knowledge and skills, it could be developed to provide a "search" function, allowing the user to choose
 different flight paths. 
+* The flight section could also have a calender search added, which could show dates where there are available flights. 
+* In the future the site could be further developed to show all countries of Asia rather than a select few. The Rest Countries API could be adapted to show a dropdown
+menu where a user could choose any country in Asia and recieve the data. This functionality could be added to Google Maps also, where any location could be searched and 
+the user would see more results. 
+* In future development the site could be developed to be a very informative app, allowing users to access information, maps, accommodation and restaurant recommendations / bookings 
+alongside flight bookings. 
 
 ## Technologies Used 
 
@@ -119,10 +125,10 @@ All testing can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/blo
 ### Content 
 
 * The homepage "About" is written by me using facts from [Wikipedia](https://en.wikipedia.org/wiki/Southeast_Asia)
-* The Map comes from Google API. 
-* The Flight Data is provided by Skyscanner API.
-* The Email functionality is provided by EmailJS. 
-* The Country Data is provided by REST countries API.
+* The Map comes from [Google Maps API](https://developers.google.com/maps/documentation). 
+* The Flight Data is provided by [Skyscanner API](https://rapidapi.com/skyscanner/api/skyscanner-flight-search).
+* The Email functionality is provided by [EmailJS](https://www.emailjs.com/). 
+* The Country Data is provided by [REST Countries API](https://restcountries.eu/).
 * The changing image shown in the "About" section is created by me, using [Canva](https://www.canva.com/)
 
 ### Media 
