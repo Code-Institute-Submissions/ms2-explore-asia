@@ -9,27 +9,26 @@ The reason the H1 tag had no content was due to it being targeted by an event li
 is vaild, I added a span with the class of "hidden" to add content to the H1 to ensure the error was resolved. By doing this, it allowed my code 
 to function as intended also. 
 
-![HTML Validity](assets/testingmd-images/html-validity.png)
+![HTML Validity](testingmd-images/html-validity.png)
 
 ### CSS 
 
 I ran my CSS through the W3C CSS Validator found [here](https://jigsaw.w3.org/css-validator/), this returned no issues. 
 
-![CSS Validity](assets/testingmd-images/css-validity.png)
+![CSS Validity](testingmd-images/css-validity.png)
 
 ### Javascript 
 
 For Javascript I used JSHint, found [here](https://jshint.com/) I ran each JS file seperately and these were the results for each. 
 
-* Email Js File ![Email Js](assets/testingmd-images/email-js-testing.png)
+* Email Js File ![Email Js](testingmd-images/email-js-testing.png)
 
-* Image Change Js File ![Image Change Js](assets/testingmd-images/image-change-testing.png) This showed a missing semi colon which I added in to the file, the screenshot
-is after the semi-colon was added.
+* Image Change Js File ![Image Change Js](testingmd-images/image-change-testing.png) This showed a missing semi colon which I added in to the file.
 
-* Map API Js File ![Map API JS](assets/testingmd-images/map-testing-one.png) (assets/testingmd-images/map-testing-two.png) A majority of this code was used from Google Map documentation and adapted for the project. The 
+* Map API Js File ![Map API JS](testingmd-images/map-testing-one.png) (assets/testingmd-images/map-testing-two.png) A majority of this code was used from Google Map documentation and adapted for the project. The 
 things being highlighted regarding variables are from Google's documentation on how to use their code. 
 
-* Rest API Js File ![Rest API Js](assets/testingmd-images/rest-api-testing.png) This showed several missing semi colons, I added these to the file. The screenshot is 
+* Rest API Js File ![Rest API Js](testingmd-images/rest-api-testing.png) This showed several missing semi colons, I added these to the file. The screenshot is 
 after the semi-colons were added.
 
-* Skyscanner Js File ![Skyscanner Js](assets/testingmd-images/skyscanner-testing.png) As seen this showed 4 missing semi colons, I added these to the file. 
+* Skyscanner Js File ![Skyscanner Js](testingmd-images/skyscanner-testing.png) As seen this showed 4 missing semi colons, I added these to the file. 
