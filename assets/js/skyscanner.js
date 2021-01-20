@@ -1,6 +1,7 @@
 //CREDIT: ENDPOINTS PROVIDED BY RAPID API. 
+// Add event listener
 document.getElementById("indo-flights").addEventListener("click" , indonesiaFlights);
-
+// Fetch request 
 function indonesiaFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/CGK-sky/anytime?inboundpartialdate=anytime",
         {
@@ -14,6 +15,7 @@ function indonesiaFlights() {
         .then(response => {
             return response.json();
         })
+// Display results
         .then(json => {
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
@@ -27,14 +29,14 @@ function indonesiaFlights() {
             document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
             document.getElementById("direct-two").innerHTML = json.Quotes[1].Direct;
         })
+// Error message for user if API fails 
         .catch(error => {
-            console.log("Something went wrong - error!");
-            console.error(error);
+            document.getElementById("text-change").innerHTML = "Sorry this information isn't available right now. Please try again later"
         });
 }
-
+// Add event listener
 document.getElementById("sing-flights").addEventListener("click" , singaporeFlights);
-
+// Make fetch request
 function singaporeFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/SIN-sky/anytime?inboundpartialdate=anytime", {
         "method": "GET",
@@ -47,6 +49,7 @@ function singaporeFlights() {
         .then(response => {
             return response.json();
         })
+// Display results
         .then(json => {
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
@@ -60,14 +63,14 @@ function singaporeFlights() {
             document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
             document.getElementById("direct-two").innerHTML = json.Quotes[12].Direct;
         })
+// Error message for user if API fails 
         .catch(error => {
-            console.log("Something went wrong - error!");
-            console.error(error);
+            document.getElementById("text-change").innerHTML = "Sorry this information isn't available right now. Please try again later"
         });
 }
-
+// Add event listener
 document.getElementById("thai-flights").addEventListener("click" , thailandFlights);
-
+// Fetch request
 function thailandFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/BKK-sky/anytime?inboundpartialdate=anytime", {
         "method": "GET",
@@ -79,6 +82,7 @@ function thailandFlights() {
         .then(response => {
             return response.json();
         })
+// Display results
         .then(json => {
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
@@ -92,15 +96,15 @@ function thailandFlights() {
             document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
             document.getElementById("direct-two").innerHTML = json.Quotes[0].Direct;
         })
+// Error message for user if API fails 
         .catch(error => {
-            console.log("Something went wrong - error!");
-            console.error(error);
+            document.getElementById("text-change").innerHTML = "Sorry this information isn't available right now. Please try again later"
         });
 
 }
-
+// Add event listener
 document.getElementById("malay-flights").addEventListener("click" , malaysiaFlights);
-
+// Fetch request
 function malaysiaFlights() {
     fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/IE/EUR/en-IE/DUB-sky/KUL-sky/anytime?inboundpartialdate=anytime", {
         "method": "GET",
@@ -113,6 +117,7 @@ function malaysiaFlights() {
         .then(response => {
             return response.json();
         })
+// Display data
         .then(json => {
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
@@ -126,9 +131,9 @@ function malaysiaFlights() {
             document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
             document.getElementById("direct-two").innerHTML = json.Quotes[9].Direct;
         })
+// Error message for user if API fails 
         .catch(error => {
-            console.log("Something went wrong - error!");
-            console.error(error);
+            document.getElementById("text-change").innerHTML = "Sorry this information isn't available right now. Please try again later"
         });
 
 }
