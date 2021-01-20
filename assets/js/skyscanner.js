@@ -15,7 +15,6 @@ function indonesiaFlights() {
             return response.json();
         })
         .then(json => {
-            console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
             document.getElementById("carriers-two").innerHTML = json.Carriers[1].Name;
@@ -49,7 +48,6 @@ function singaporeFlights() {
             return response.json();
         })
         .then(json => {
-            console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
             document.getElementById("carriers-two").innerHTML = json.Carriers[1].Name;
@@ -82,7 +80,6 @@ function thailandFlights() {
             return response.json();
         })
         .then(json => {
-            console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
             document.getElementById("carriers-two").innerHTML = json.Carriers[3].Name;
@@ -117,7 +114,6 @@ function malaysiaFlights() {
             return response.json();
         })
         .then(json => {
-            console.log(json);
             document.getElementById("text-change").innerHTML = "Find Out Below:";
             document.getElementById("carriers-one").innerHTML = json.Carriers[0].Name;
             document.getElementById("carriers-two").innerHTML = json.Carriers[1].Name;
