@@ -12,6 +12,7 @@ function sendMail(contactForm) {
         .then(
             function () {
                 document.getElementById("submit-btn").innerHTML = "Sent!";
+                alert("Your message has been sent - Thank you.")
 
             },
             function (error) {
