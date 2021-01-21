@@ -25,10 +25,12 @@ For Javascript I used JSHint, found [here](https://jshint.com/) I ran each JS fi
 
 * Image Change Js File ![Image Change Js](testingmd-images/image-change-testing.png) This showed a missing semi colon which I added in to the file.
 
-* Map API Js File ![Map API JS](testingmd-images/map-testing-one.png) (assets/testingmd-images/map-testing-two.png) A majority of this code was used from Google Map documentation and adapted for the project. The 
+* Map API Js File ![Map API JS](testingmd-images/map-testing-one.png) A majority of this code was used from Google Map documentation and adapted for the project. The 
 things being highlighted regarding variables are from Google's documentation on how to use their code. 
 
 * Rest API Js File ![Rest API Js](testingmd-images/rest-api-testing.png) This showed several missing semi colons, I added these to the file. The screenshot is 
 after the semi-colons were added.
 
 * Skyscanner Js File ![Skyscanner Js](testingmd-images/skyscanner-testing.png) As seen this showed 4 missing semi colons, I added these to the file. 
+
+<image src="testing.pdf">
