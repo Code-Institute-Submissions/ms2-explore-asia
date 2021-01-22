@@ -51,7 +51,7 @@ The deployed site can be viewed [here.](https://ellyc20.github.io/ms2-explore-as
 The wireframes for this project can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/tree/master/assets/wireframes/ms2-wireframes).
 
 Throught the development process the design differed from the wireframes. As you can see, the Map API was moved to the right hand side, initally I did 
-place it on the right but the page felt imbalanced and it didn't look good. In this section also you can see that initally I had wanted to use only 2 buttons, 
+place it on the left but the page felt imbalanced and it didn't look good. In this section also you can see that initally I had wanted to use only 2 buttons, 
 "Restaurants" and "Attractions", however I found it very hard to ensure that when the user clicked one of these buttons it only showed them the options relating 
 to the country they had chosen. The user experience didn't feel very friendly as a user would have to scroll up to the 1st set of buttons, choose a country, 
 scroll back down and then choose either button there to see options on the map. 
@@ -78,12 +78,12 @@ focus being on markets in this image. Immediately the user can "see Asia" and wh
 
 ### Current Features 
 
-* A fixed Navbar, ensuring the user access to the menu at all points.
+* A fixed Navbar, ensuring the user has access to the menu at all points.
 * A single scrolling page, allowing ease of use to the user.
-* An map, where the user chooses the destination via a button and is shown this location on the map. 
-* The abilty to edit content, when the user selects a button the site is changed. The image image shown in about changes to reflect the users choice, as 
+* A map, where the user chooses the destination via a button and is shown this location on the map. 
+* The abilty to edit content, when the user selects a button the site is changed. The image displayed in "About" changes to reflect the users choice, as 
 does the data shown. 
-* The email feauture allows emails to be sent to the site owner. 
+* The email feature allows emails to be sent to the site owner. 
 * A flight information section, showing flights from Ireland to the chosen destination.
 
 ### Feautures To Be Implemented 
@@ -104,7 +104,7 @@ alongside flight bookings.
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Provides the content and structure.
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides styling to the project.
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides responsiveness to the site. 
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides interactive elements to the site. 
 
 ### Frameworks And Libaries Used 
 

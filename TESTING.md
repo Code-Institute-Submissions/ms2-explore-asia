@@ -33,19 +33,6 @@ after the semi-colons were added.
 
 * Skyscanner Js File ![Skyscanner Js](testingmd-images/skyscanner-testing.png) As seen this showed 4 missing semi colons, I added these to the file. 
 
-### Responsiveness and Individual Feautures Testing 
-![one](testingmd-images/testing-MS2-01.png)
-![two](testingmd-images/testing-MS2-02.png)
-![three](testingmd-images/testing-MS2-03.png)
-![four](testingmd-images/testing-MS2-04.png)
-![five](testingmd-images/testing-MS2-05.png)
-![six](testingmd-images/testing-MS2-06.png)
-![seven](testingmd-images/testing-MS2-07.png)
-![eight](testingmd-images/testing-MS2-08.png)
-![nine](testingmd-images/testing-MS2-09.png)
-![ten](testingmd-images/testing-MS2-10.png)
-![eleven](testingmd-images/testing-MS2-11.png)
-
 ### User Stories Testing 
 
 * "I want to learn about countries in Asia, specifically about the languages or population." This requirement is met through the use of the REST Countries API 
@@ -65,3 +52,17 @@ achieved. In time this as mentioned could be developed further allowing more inf
 
 * "I want to be able to contact the site owner incase I require further information." The Email function allows the user to send an email and recieve feedback when the email is 
 successful. 
+
+### Responsiveness and Individual Feautures Testing 
+![one](testingmd-images/testing-MS2-01.png)
+![two](testingmd-images/testing-MS2-02.png)
+![three](testingmd-images/testing-MS2-03.png)
+![four](testingmd-images/testing-MS2-04.png)
+![five](testingmd-images/testing-MS2-05.png)
+![six](testingmd-images/testing-MS2-06.png)
+![seven](testingmd-images/testing-MS2-07.png)
+![eight](testingmd-images/testing-MS2-08.png)
+![nine](testingmd-images/testing-MS2-09.png)
+![ten](testingmd-images/testing-MS2-10.png)
+![eleven](testingmd-images/testing-MS2-11.png)
+
