@@ -1,4 +1,7 @@
 # Explore Asia 
+
+![Am I Responsive Images](testingmd-images/am-i-responsive.png)
+
 This website was designed to help people gain knowledge about countries in Asia. The site is designed to be helpful in planning a holiday by
 providing key information about the countries. Users have a way of looking for flights, of receiving information about restaurants and 
 information about key attractions. The site can be interacted with by the user, allowing them to select which content they wish to read. 
@@ -26,19 +29,40 @@ The deployed site can be viewed [here.](https://ellyc20.github.io/ms2-explore-as
 
 **Project Purpose**
 
-1. To make planning a trip to Asia easier, by providing useful, helpful information. 
+* To make planning a trip to Asia easier, by providing useful, helpful information. 
+* To promote visting places or countries that people may not always consider. 
+* To create a project that can be maintained and developed over time. 
 
 ### 2.Scope 
 
+* To ensure that the site immediately showcases what it is about. 
+* To have a straight forward interface, allowing the user to make choices about the content they wish to display.
+* Ensure the layout is easy to use, not over complicated and to not overwhelm the user with design choices or features.
+
 ### 3.Structure 
+
+* The site is organised into a single scrolling page, allowing the user to navigate to particular sections by using the navbar.
+* The navbar is fixed allowing access at all points. 
+* The sections have clear headers ensuring the user knows what information relates to what.
+* The curved edges of buttons and certain elements add a softness to the site. 
 
 ### 4.Skeleton 
 
 The wireframes for this project can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/tree/master/assets/wireframes/ms2-wireframes).
 
+Throught the development process the design differed from the wireframes. As you can see, the Map API was moved to the right hand side, initally I did 
+place it on the right but the page felt imbalanced and it didn't look good. In this section also you can see that initally I had wanted to use only 2 buttons, 
+"Restaurants" and "Attractions", however I found it very hard to ensure that when the user clicked one of these buttons it only showed them the options relating 
+to the country they had chosen. The user experience didn't feel very friendly as a user would have to scroll up to the 1st set of buttons, choose a country, 
+scroll back down and then choose either button there to see options on the map. 
+
 ### 5.Surface 
 
 **Colours**
+
+* The colours were chosen as they provide an appealing user interface. The colours are soft to match the black and white photography. The 
+orange colour chosen for the H1 elements provides a welcome pop of colour, as does the blue chosen for the Rest API Country data section alongside
+the form. The blue chosen also ties into the provided colour of Google Map. 
 
 **Font**
 
@@ -134,7 +158,7 @@ All testing can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/blo
 ### Media 
 
 * My homepage image is from Unsplash. The link can be found [here](https://unsplash.com/photos/WXKDnMFiYu8)
-* My changing image is from Canva, designed by me. 
+* My changing image is from [Canva](https://www.canva.com/), designed by me. 
 
 ### Acknowledgements 
 
@@ -142,6 +166,8 @@ All testing can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/blo
 * I used [JSHint](https://jshint.com/) when working with JavaScript to check for errors.
 * [Stack Overflow](https://stackoverflow.com/) as a general reference. 
 * [W3Schools](https://www.w3schools.com/default.asp) as a general reference. 
+* [Am I Responsive](http://ami.responsivedesign.is/) provides the image shown at the start of this README. 
+* [Responsive Website Design Tester](https://www.responsivedesignchecker.com/) used to check how the site views on different devices.
 
 
 

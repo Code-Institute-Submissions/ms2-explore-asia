@@ -33,6 +33,7 @@ after the semi-colons were added.
 
 * Skyscanner Js File ![Skyscanner Js](testingmd-images/skyscanner-testing.png) As seen this showed 4 missing semi colons, I added these to the file. 
 
+### Responsiveness and Individual Feautures Testing 
 ![one](testingmd-images/testing-MS2-01.png)
 ![two](testingmd-images/testing-MS2-02.png)
 ![three](testingmd-images/testing-MS2-03.png)
@@ -44,3 +45,23 @@ after the semi-colons were added.
 ![nine](testingmd-images/testing-MS2-09.png)
 ![ten](testingmd-images/testing-MS2-10.png)
 ![eleven](testingmd-images/testing-MS2-11.png)
+
+### User Stories Testing 
+
+* "I want to learn about countries in Asia, specifically about the languages or population." This requirement is met through the use of the REST Countries API 
+data. This tells the user key facts about each country. 
+* "I would like to be able to look for flights while visiting the website." This requirement is met through the use of the Skyscanner API, while this is simple
+currently it does provide the user with the option of two different flights. 
+* "I want to be able to find social media links, for further information." The social media links are accessible in the footer. 
+* "I want to use a map to see recommendations for where to eat. I want to use a map to see recommendations of things to see." These are both met by choosing a country 
+and being shown recommended Restaurants and Attractions. While the text is visible the map is also showing markers of these locations. 
+
+* "I want to provide useful, factual information to the user." All information shown is relevent and factual. The user can find out key facts, look for places to see, places 
+to eat and find out some of the flight options. 
+* "I want the site to be easy to use and aesthetically pleasing." The userface is simple and easy to use. It's clear what is expected of the user. The information is easy to find, 
+the buttons ensure interactivity for the user. While keeping the design simple it ensures there isn't an overload of design / features that may be overwhelming or confusing to a user.
+* "I want to ensure to include an option to look for flights, this benefits me as businesses may collaborate with me to generate sales." By implementing the Skyscanner API this goal has been 
+achieved. In time this as mentioned could be developed further allowing more information to be accepted or displayed. 
+
+* "I want to be able to contact the site owner incase I require further information." The Email function allows the user to send an email and recieve feedback when the email is 
+successful. 
