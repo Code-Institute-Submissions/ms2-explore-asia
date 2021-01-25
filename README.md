@@ -50,7 +50,7 @@ content displayed.
 
 ### 4.Skeleton 
 
-The wireframes for this project can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/tree/master/assets/wireframes/ms2-wireframes).
+The wireframes for this project can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/tree/master/wireframes/ms2-wireframes).
 
 Throught the development process the design differed from the wireframes. As you can see, the Map API was moved to the right hand side, initally I did 
 place it on the left but the page felt imbalanced and it didn't look good. In this section also you can see that initally I had wanted to use only 2 buttons, 
