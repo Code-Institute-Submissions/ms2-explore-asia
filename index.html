@@ -130,6 +130,7 @@
             <p class="data"><strong><u>Cost:</u></strong><br><span id="quotes-one"></span><br><span id="quotes-two"></span></p>
             <p class="data"><strong><u>Direct Flight:</u></strong><br><span id="direct-one"></span><br><span id="direct-two"></span></p>
         </div>
+        <a href="https://www.skyscanner.ie/" target="_blank">Book Flights Here</a><br>
         <small>Data Provided By Skyscanner API</small>
     </div>
 
@@ -140,15 +141,18 @@
         <form onsubmit="return sendMail(this);" class="form-area">
             <div class="name-area">
                 <label for="name"><b>Your Name:</b></label>
-                <input type="text" name="name" id="name" class="form-control" required>
+                <!-- CREDIT: pattern solution from Stack Overflow https://stackoverflow.com/questions/19619428/html5-form-validation-pattern-alphanumeric-with-spaces-->
+                <input type="text" pattern="[a-zA-Z]+[a-zA-Z ]+" name="name" id="name" class="form-control" required aria-required="true" minlength="3">
             </div>
             <div class="email-area" >
                 <label for="email"><b>Your Email:</b></label>
-                <input type="text" name="email" id="email" class="form-control" required>
+                <!-- CREDIT: Pattern is from https://www.w3schools.com/tags/att_input_pattern.asp -->
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" id="email" class="form-control" required aria-required="true">
             </div>
             <div id="message-area">
                 <label for="message"><b>Your Message Here:</b></label>
-                <textarea name="message" id="message" cols="10" rows="5" class="form-control" required></textarea>
+                <!-- CREDIT: pattern solution from Stack Overflow https://stackoverflow.com/questions/19619428/html5-form-validation-pattern-alphanumeric-with-spaces-->
+                <input type="text" name="message" pattern="[a-zA-Z]+[a-zA-Z ]+" id="message" class="form-control" required aria-required="true" minlength="10">
             </div>
             <div>
                 <button type="submit" class="btn" id="submit-btn">Send Now!</button>
