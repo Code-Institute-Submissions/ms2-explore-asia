@@ -43,6 +43,8 @@ The deployed site can be viewed [here.](https://ellyc20.github.io/ms2-explore-as
 
 * The site is organised into a single scrolling page, allowing the user to navigate to particular sections by using the navbar.
 * The navbar is fixed allowing access at all points. 
+* The opening section provides clear information about the users chosen country, immediately the user can make choices affecting the 
+content displayed. 
 * The sections have clear headers ensuring the user knows what information relates to what.
 * The curved edges of buttons and certain elements add a softness to the site. 
 
@@ -55,6 +57,9 @@ place it on the left but the page felt imbalanced and it didn't look good. In th
 "Restaurants" and "Attractions", however I found it very hard to ensure that when the user clicked one of these buttons it only showed them the options relating 
 to the country they had chosen. The user experience didn't feel very friendly as a user would have to scroll up to the 1st set of buttons, choose a country, 
 scroll back down and then choose either button there to see options on the map. 
+
+* A single scrolling pages 
+* A footer with Social Media icons which take the user to an external site.
 
 ### 5.Surface 
 
@@ -109,6 +114,10 @@ alongside flight bookings.
 ### Frameworks And Libaries Used 
 
 * [Git](https://git-scm.com/) - Used for version control. 
+* [Bootstrap 4.5](https://getbootstrap.com/) - Used to create layout of this project.
+* [Google Fonts](https://fonts.google.com/) - For the use of fonts. 
+* [Font Awesome](https://fontawesome.com/) - For the Social Media icons in the footer.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - Used throughout development for testing purposes.
 * [Github](https://github.com/) - Used to store the project.
 * [Gitpod](https://www.gitpod.io/) - Used to develop the project.
 * [Github Pages](https://pages.github.com/) - Used to host the deployed site.
@@ -116,7 +125,6 @@ alongside flight bookings.
 * [Email JS](https://www.emailjs.com/) - To allow emails to be sent. 
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/overview) - For the map features seen on the site.
 * [REST Countries](https://restcountries.eu/) - API used to provide data about chosen country. 
-
 
 ## Testing 
 
@@ -164,6 +172,8 @@ All testing can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/blo
 
 * When implementing the Flight Search API, I referenced this [video](https://www.youtube.com/watch?v=tc8DU14qX6I&t=562s) to help understand how to do this. 
 * I used [JSHint](https://jshint.com/) when working with JavaScript to check for errors.
+* To the Code Institute course material, as the basis of all my knowledge is from here.
+* To the Slack community as I have used the different channels to find answers and ask for advice.
 * [Stack Overflow](https://stackoverflow.com/) as a general reference. 
 * [W3Schools](https://www.w3schools.com/default.asp) as a general reference. 
 * [Am I Responsive](http://ami.responsivedesign.is/) provides the image shown at the start of this README. 
