@@ -13,6 +13,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     color: rgb(245, 129, 66);
+    padding-top: 2px;
 }
 
 .hidden {
@@ -75,8 +76,9 @@ a:hover {
 /* ABOUT */ 
 #about,
 #visit,
-#what-to-see {
-    padding: 20px;
+#what-to-see,
+#flights-container {
+    padding: 90px 20px 0 20px; /* To fix issue when using navigation, Nav Bar would cover H1 and part of content*/
 }
 
 /* CREDIT: Code from https://www.w3schools.com/css/css3_borders.asp and modified for project*/
@@ -152,6 +154,7 @@ a:hover {
 #message {
     padding: 10px;
     margin: 5px;
+    height: 60px;
 }
 
 .email-container {
@@ -181,8 +184,3 @@ a:hover {
     font-size: 20px;
     padding: 10px;
 }
-
-
-
-
-
