@@ -125,10 +125,7 @@ a:hover {
     }
 }
 
-#text-change {
-    margin: 10px;
-}
-
+#text-change,
 #style-row {
     margin: 10px;
 }
@@ -173,6 +170,7 @@ a:hover {
     padding: 5px;
     margin-top: 25px;
 }
+
 .copyright {
     font-size: small;
     font-weight: 500;
