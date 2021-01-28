@@ -9,7 +9,6 @@ function initMap() {
         }
     });
 
-
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [
@@ -21,7 +20,6 @@ function initMap() {
 }
 
 // To move map to "Indonesia" on button click 
-
 document.getElementById("indo-btn").addEventListener("click", initMapOne);
 
 function initMapOne() {
@@ -80,15 +78,18 @@ function initMapFour() {
         map: map,
     });
 }
-// WHAT TO SEE SECTION
-// Indonesia
-document.getElementById("indo-map").addEventListener("click", initMapFive);
 
+// WHAT TO SEE SECTION
+
+// Indonesia
+// Add event listener
+document.getElementById("indo-map").addEventListener("click", initMapFive);
+// Insert inner html text 
 document.getElementById("indo-map").addEventListener("click", function() {
   document.getElementById("indo-text").innerHTML = 
   "<h1>Restaurants:</h1><li>A: Sani Sini</li> <li>B: Saigon San</li> <li>C: Fullfeel Cafe</li> <h1>Attractions:</h1><li>D: Prambanan Temple</li> <li>E: Mount Bromo</li>";
 });
-
+// Display locations on map 
 function initMapFive() {
 
     var indoMap = new google.maps.Map(document.getElementById("map"), {
@@ -124,14 +125,14 @@ function initMapFive() {
 }
 
 //Singapore
+// Add event listener
 document.getElementById("sing-map").addEventListener("click", initMapSix);
-
+// Insert inner html text
 document.getElementById("sing-map").addEventListener("click", function() {
   document.getElementById("sing-text").innerHTML = 
   "<h1>Restaurants:</h1><li>A: Burnt Ends</li> <li>B: Corner House </li> <li>C: Chinatown Food Street </li> <h1>Attractions:</h1><li>D: Marina Bay Sands</li> <li>E: Gardens By The Bay</li>";
 });
-
-
+// Display locations on map 
 function initMapSix() {
 
     var singMap = new google.maps.Map(document.getElementById("map"), {
@@ -167,13 +168,14 @@ function initMapSix() {
 }
 
 //Thailand
+// Add event listener
 document.getElementById("thai-map").addEventListener("click", initMapSeven);
-
+// Insert inner html text
 document.getElementById("thai-map").addEventListener("click", function() {
   document.getElementById("thai-text").innerHTML = 
   "<h1>Restaurants:</h1><li>A: Mu's Katsu</li> <li>B: Siam Supper Club</li> <li>C: Red Sky Bar</li> <h1>Attractions:</h1><li>D: Pattaya Floating Market</li> <li>E: Chiang Mai Night Bazaar</li>";
 });
-
+// Display locations on map 
 function initMapSeven() {
 
     var thaiMap = new google.maps.Map(document.getElementById("map"), {
@@ -209,13 +211,14 @@ function initMapSeven() {
 }
 
 //Malaysia
+// Add event listener
 document.getElementById("malay-map").addEventListener("click", initMapEight);
-
+// Insert inner html text
 document.getElementById("malay-map").addEventListener("click", function() {
   document.getElementById("malay-text").innerHTML = 
   "<h1>Restaurants:</h1><li>A: Burger On 16</li> <li>B: My Own Cafe</li> <li>C: Eat Street</li> <h1>Attractions:</h1><li>D: Petronas Towers</li> <li>E: Batu Caves</li>";
 });
-
+// Display locations on map 
 function initMapEight() {
 
     var malayMap = new google.maps.Map(document.getElementById("map"), {
@@ -275,5 +278,3 @@ document.getElementById("malay-map").addEventListener("click", function() {
     document.getElementById("sing-text").innerHTML = "",
     document.getElementById("thai-text").innerHTML = "";
 });
-
-
