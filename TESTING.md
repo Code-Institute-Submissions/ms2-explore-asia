@@ -35,13 +35,21 @@ after the semi-colons were added.
 
 ### User Stories Testing 
 
+#### User 
+
 * "I want to learn about countries in Asia, specifically about the languages or population." This requirement is met through the use of the REST Countries API 
 data. This tells the user key facts about each country. 
+![User Stories One](testingmd-images/testing-userstories.png)
 * "I would like to be able to look for flights while visiting the website." This requirement is met through the use of the Skyscanner API, while this is simple
 currently it does provide the user with the option of two different flights. 
+![User Stories Two](testingmd-images/testing-userstories2.png)
 * "I want to be able to find social media links, for further information." The social media links are accessible in the footer. 
+![User Stories Three](testingmd-images/testing-userstories3.png)
 * "I want to use a map to see recommendations for where to eat. I want to use a map to see recommendations of things to see." These are both met by choosing a country 
 and being shown recommended Restaurants and Attractions. While the text is visible the map is also showing markers of these locations. 
+![User Stories Four](testingmd-images/testing-userstories4.png)
+
+#### Site Owner 
 
 * "I want to provide useful, factual information to the user." All information shown is relevent and factual. The user can find out key facts, look for places to see, places 
 to eat and find out some of the flight options. 
@@ -49,6 +57,7 @@ to eat and find out some of the flight options.
 the buttons ensure interactivity for the user. While keeping the design simple it ensures there isn't an overload of design / features that may be overwhelming or confusing to a user.
 * "I want to ensure to include an option to look for flights, this benefits me as businesses may collaborate with me to generate sales." By implementing the Skyscanner API this goal has been 
 achieved. In time this as mentioned could be developed further allowing more information to be accepted or displayed. 
+#### Returning User
 
 * "I want to be able to contact the site owner incase I require further information." The Email function allows the user to send an email and recieve feedback when the email is 
 successful. 
