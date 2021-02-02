@@ -73,6 +73,10 @@ the target within the array may not be available on that day in question. For ex
 on what information and flights are available at that time. To help minimise the risk of this I reduced the target within the array, any quotes above 3 are no longer requested as this is more likely to 
 return the error. 
 
+### Internal Links 
+
+I checked when implemented that the footer icons open the correct social media site in a new window when clicked. I also checked this in my "flight section", that the link to book flights opens Skyscanner
+in a new window. Testing was successful for both of these. 
 
 ### Responsiveness and Individual Feautures Testing 
 ![one](testingmd-images/testing-one.png)
