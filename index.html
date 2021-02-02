@@ -130,19 +130,21 @@
             <p class="data"><strong><u>Cost:</u></strong><br><span id="quotes-one"></span><br><span id="quotes-two"></span></p>
             <p class="data"><strong><u>Direct Flight:</u></strong><br><span id="direct-one"></span><br><span id="direct-two"></span></p>
         </div>
-        <a href="https://www.skyscanner.ie/" target="_blank">Book Flights Here</a><br>
+        <a href="https://www.skyscanner.ie/" target="_blank" rel="noopener">Book Flights Here</a><br>
         <small>Data Provided By Skyscanner API</small>
     </div>
 
     <!-- EMAIL AREA -->
     <!-- CREDIT: USED CODE INSTITUTE VIDEO TO IMPLEMENT-->
     <div class="container email-container" id="email-us">
-        <h1 id="email-h1">Send Us An Email For Any Further Information!</h1>
+        <h1>Send Us An Email For Any Further Information!</h1>
         <form onsubmit="return sendMail(this);" class="form-area">
             <div class="name-area">
                 <label for="name"><b>Your Name:</b></label>
-                <!-- CREDIT: pattern solution from Stack Overflow https://stackoverflow.com/questions/19619428/html5-form-validation-pattern-alphanumeric-with-spaces-->
-                <input type="text" pattern="[a-zA-Z]+[a-zA-Z ]+" name="name" id="name" class="form-control" required aria-required="true" minlength="3">
+                <!-- CREDIT: pattern solution from Stack Overflow https://stackoverflow.com/questions/19619428/html5-form-validation-pattern-alphanumeric-with-spaces--> 
+                <!-- CREDIT: to alter message displayed to user to give more information regarding pattern required https://stackoverflow.com/questions/24391078/how-to-change-the-default-message-of-the-required-field-in-the-popover-of-form-c/24392931-->
+                <input type="text" pattern="[a-zA-Z]+[a-zA-Z ]+" name="name" id="name" class="form-control" required aria-required="true" minlength="3" oninvalid="this.setCustomValidity('Please enter 3 or more characters, numbers are not allowed.')"
+                oninput="setCustomValidity('')">
             </div>
             <div class="email-area" >
                 <label for="email"><b>Your Email:</b></label>

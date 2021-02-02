@@ -53,6 +53,18 @@ achieved. In time this as mentioned could be developed further allowing more inf
 * "I want to be able to contact the site owner incase I require further information." The Email function allows the user to send an email and recieve feedback when the email is 
 successful. 
 
+### Project Barriers And Solutions / Bugs
+
+* During the testing process I submitted my project to "Peer Review" in the Slack community. From doing this one thing noted was that when the user clicked a navigational option the nav bar was 
+covering the start of the section chosen including the section header. This was fixed by adding extra margin-top to each section. 
+* During this another student noted that in the "flight section" the results of "direct flight" return "true or false" and asked if this was intentional. To clarify this, the API I worked with 
+only returns a true or false value for this data.
+* I noticed that intermittently when clicking the "flight section" buttons the user may recieve the change of inner html text that indicates an error within the API. This issue was occuring because
+the target within the array may not be available on that day in question. For example I may have chosen to display the data of "Quote 12" but there may some days only be 3 quotes available. It depends
+on what information and flights are available at that time. To help minimise the risk of this I reduced the target within the array, any quotes above 3 are no longer requested as this is more likely to 
+return the error. 
+
+
 ### Responsiveness and Individual Feautures Testing 
 ![one](testingmd-images/testing-one.png)
 ![two](testingmd-images/testing-two.png)
