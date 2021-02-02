@@ -137,8 +137,11 @@ All testing can be viewed [here](https://github.com/EllyC20/ms2-explore-asia/blo
 * All code was written using Gitpod, an online IDE.
 * This code was pushed to Github and stored as a repositorie.
 * To deploy I chose the repositorie to be deployed, then I entered the settings of this repo. 
+![Deploy One](testingmd-images/deployment-one.png)
 * Within settings I scrolled down until I found the section titled "Pages". 
+![Deploy Two](testingmd-images/deployment-two.png)
 * In this section I selected "Master" as the branch, then saved.
+![Deploy Three](testingmd-images/deployment-three.png)
 * Once this is saved a link will be shown with the website deployed onto GitHub pages. 
 * If you follow this link it will bring you to the deployed website. 
 
