@@ -92,7 +92,7 @@ function thailandFlights() {
             document.getElementById("to-one").innerHTML = json.Places[0].CityName;
             document.getElementById("to-two").innerHTML = json.Places[0].CityName;
             document.getElementById("quotes-one").innerHTML = json.Quotes[0].MinPrice;
-            document.getElementById("quotes-two").innerHTML = json.Quotes[12].MinPrice;
+            document.getElementById("quotes-two").innerHTML = json.Quotes[3].MinPrice;
             document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
             document.getElementById("direct-two").innerHTML = json.Quotes[0].Direct;
         })
@@ -127,9 +127,9 @@ function malaysiaFlights() {
             document.getElementById("to-one").innerHTML = json.Places[1].CityName;
             document.getElementById("to-two").innerHTML = json.Places[1].CityName;
             document.getElementById("quotes-one").innerHTML = json.Quotes[0].MinPrice;
-            document.getElementById("quotes-two").innerHTML = json.Quotes[9].MinPrice;
+            document.getElementById("quotes-two").innerHTML = json.Quotes[3].MinPrice;
             document.getElementById("direct-one").innerHTML = json.Quotes[0].Direct;
-            document.getElementById("direct-two").innerHTML = json.Quotes[9].Direct;
+            document.getElementById("direct-two").innerHTML = json.Quotes[3].Direct;
         })
 // Error message for user if API fails 
         .catch(error => {
